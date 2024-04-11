@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bandera-argentina, .bandera-francia{
+    width: 300px;
+    height: 200px;
+    border: 1px solid lightslategray;
+    margin: 30px auto;
+}
+
+.franja-celeste{
+    background-color: lightblue;
+    height: 67px;
+}
+
+.franja-blanca{
+    background-color: white;
+    height: 67px;
+}
+
+.franja-azul{
+    background-color: blue;
+    width: 98px;
+    height: 100%;
+    display: inline-block;
+}
+
+.franja-roja{
+    background-color: red;
+    width: 99px;
+    height: 200px;
+    display: inline-block;
+}
+
+.franja-blanca-francia{
+    background-color: white;
+    width: 95px;
+    height: 100%;
+    display: inline-block;
+}

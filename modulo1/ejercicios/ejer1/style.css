@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    border: 5px solid;
+}
+
+.header{
+    display: flex;
+    background-color: rgb(177, 127, 224);
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+
+}
+
+.footer{
+    display: flex;
+    background-color:rgb(207, 126, 194);
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+

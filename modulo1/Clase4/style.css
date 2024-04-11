@@ -1,0 +1,16 @@
+.cajita{
+    background-color: blue;
+    color: white;
+    display: block;
+}
+
+.texto{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+}
+
+
+div{
+    display: block;
+}

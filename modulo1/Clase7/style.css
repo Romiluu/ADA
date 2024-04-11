@@ -1,0 +1,43 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor-abuelo{
+    display: flex;
+}
+
+.contenedor{
+    width: 400px;
+    height: 400px;
+    display: flex;
+}
+
+.cont-1{
+    background-color: aquamarine;
+    height: 50px;
+    width: 100px;
+}
+.cont-2{
+    background-color: darkcyan;
+    height: 50px;
+    width: 100px;
+}
+.cont-3{
+    background-color: cornflowerblue;
+    height: 50px;
+    width: 100px;
+}
+.cont-4{
+    background-color: blue;
+    height: 50px;
+    width: 100px;
+}
+.cont-5{
+    background-color: blueviolet;
+    height: 50px;
+    width: 100px;
+}
+    
+   

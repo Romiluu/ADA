@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row; /* Ahora los elementos se organizan en fila */
+    height: 100vh; /* Altura completa de la pantalla */
+    border: 5px solid;
+}
+
+.panel-left {
+    background-color: rgb(147, 113, 182);
+    width: 200px; /* Ancho fijo para el panel izquierdo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column; /* Los elementos internos se organizan en columna */
+    flex: 1; /* Toma el espacio restante */
+}
+
+.header {
+    background-color: rgb(177, 127, 224);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px; /* Altura fija para header y footer */
+
+}
+
+.footer {
+    background-color: rgb(207, 126, 194);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px; /* Altura fija para header y footer */
+}
+
+.main {
+    display: flex;
+    flex: 1; /* El main ocupa el espacio restante */
+}
+
+.contenido-main {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
